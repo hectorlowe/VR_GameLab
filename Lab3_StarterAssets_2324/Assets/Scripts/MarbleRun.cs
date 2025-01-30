@@ -22,7 +22,7 @@ public class MarbleRun : MonoBehaviour
     {
         if (other.CompareTag("Marble"))
         {
-            door.SetActive(false);
+            door.transform.position = new Vector3(0.319999993f, 1.53999996f, -2.94000006f);
         }
     }
 }
